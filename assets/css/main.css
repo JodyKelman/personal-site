@@ -158,18 +158,12 @@ input, select, textarea {
 		backface-visibility: hidden;
 	/* Set your background with this */
 
-		background: #c0c2c4 url("images/AV_Golden_Gate.png") bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
-		left: 0;
+		background-image:    url("images/AV_Golden_Gate.png");
+		background-color:    #c0c2c4;
+		background-size:     cover;
+		background-position: bottom left;
 		opacity: 1;
-		position: fixed;
-		top: 0;
-	}
-
-	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
+		height: 100%;
 	}
 
 /* Overlay */
@@ -324,12 +318,7 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
-		/* BG */
-
-		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
-		} }
+	}
 
 /* Normal */
 
@@ -340,13 +329,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
-		/* BG */
-
-		#bg {
-			background-size: 750px auto;
-			width: 2250px;
-		} }
+	}
 
 /* Mobile */
 
@@ -361,13 +344,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
-		/* BG */
-
-		#bg {
-			background-size: 300px auto;
-			width: 900px;
-		}
 
 	/* Header */
 
@@ -394,13 +370,6 @@ input, select, textarea {
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
-
-		/* BG */
-
-		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
-		}
 
 	/* Header */
 
